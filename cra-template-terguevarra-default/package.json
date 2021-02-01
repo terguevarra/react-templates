@@ -1,0 +1,9 @@
+{
+  "name": "cra-template-terguevarra-default",
+  "version": "0.0.1",
+  "description": "Ruther's default project application structure for most CRA web apps",
+  "author": "Ruther John Guevarra",
+  "license": "ISC",
+  "main": "template.json",
+  "files": ["template", "template.json"]
+}
