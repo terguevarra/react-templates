@@ -28,7 +28,16 @@ class Http {
         }catch(error){
             Promise.reject(error);
         }
-        
+    }
+
+    static Put = async (url, params, options = null) => {
+        try{
+            options = _private.checkOptions(options);
+            let resp = await axios.put(url, params, options);
+            return resp.data;
+        }catch(error){
+            Promise.reject(error);
+        }
     }
 }
 
