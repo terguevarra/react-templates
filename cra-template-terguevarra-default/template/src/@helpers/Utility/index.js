@@ -10,6 +10,7 @@ import IsInArray from './IsInArray';
 import IsInObjectArray from './IsInObjectArray';
 import KeyValueToObjectArray from './KeyValueToObjectArray';
 import IfArrayIsInList from './IfArrayIsInList';
+import GetAge from './GetAge';
 
 export {
     ListToTree,
@@ -23,5 +24,6 @@ export {
     IsInArray,
     IsInObjectArray,
     KeyValueToObjectArray,
-    IfArrayIsInList
+    IfArrayIsInList,
+    GetAge
 }
