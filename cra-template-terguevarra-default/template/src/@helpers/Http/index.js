@@ -39,6 +39,16 @@ class Http {
             Promise.reject(error);
         }
     }
+
+    static Delete = async (url, options = null) => {
+        try{
+            options = _private.checkOptions(options);
+            let resp = await axios.delete(url, options);
+            return resp.data;
+        }catch(error){
+            Promise.reject(error);
+        }
+    }
 }
 
 
