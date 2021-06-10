@@ -11,6 +11,7 @@ import IsInObjectArray from './IsInObjectArray';
 import KeyValueToObjectArray from './KeyValueToObjectArray';
 import IfArrayIsInList from './IfArrayIsInList';
 import GetAge from './GetAge';
+import SetFormValues from './SetFormValues';
 
 export {
     ListToTree,
@@ -25,5 +26,6 @@ export {
     IsInObjectArray,
     KeyValueToObjectArray,
     IfArrayIsInList,
-    GetAge
+    GetAge,
+    SetFormValues
 }
