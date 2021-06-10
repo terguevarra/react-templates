@@ -6,16 +6,9 @@ import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 
 //Setup interceptors here
-//You can use default interceptors provided in the @helpers/Interceptors folder
+// import setupInterceptors from './setupInterceptors';
 
-// import ServerErrorInterceptor from '@helpers/Interceptors/ServerError';
-// import AuthenticationInterceptor from '@helpers/Interceptors/AuthenticationInterceptor';
-
-// const serverError = new ServerErrorInterceptor();
-// const authenticationInterceptor = new AuthenticationInterceptor();
-
-// serverError.setupInterceptor();
-// authenticationInterceptor.setupInterceptor();
+// setupInterceptors();
 
 ReactDOM.render(
   <React.StrictMode>

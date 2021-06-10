@@ -3,6 +3,7 @@ import Swal from 'sweetalert2/src/sweetalert2.js';
 
 import Token from '../Token';
 
+//DEPRECATED
 class ServerErrorInterceptor {
     setupInterceptor = () => {
         axios.interceptors.response.use(function (response) {

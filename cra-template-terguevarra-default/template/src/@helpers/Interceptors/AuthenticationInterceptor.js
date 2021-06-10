@@ -1,6 +1,7 @@
 import axios from 'axios';
 import Token from '../Token';
 
+//DEPRECATED
 class AuthenticationInterceptor{
     setupInterceptor = () => {
         axios.interceptors.request.use(function (config) {
