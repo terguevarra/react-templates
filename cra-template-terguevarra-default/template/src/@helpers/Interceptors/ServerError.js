@@ -15,7 +15,7 @@ class ServerErrorInterceptor {
                         text: 'Oop.. Something went wrong..',
                         icon: 'error',
                         allowOutsideClick: false,
-                        onClose: function () {
+                        willClose: function () {
                             
                         }
                     });
@@ -31,7 +31,7 @@ class ServerErrorInterceptor {
                         text: 'You are not authorized to access this page',
                         icon: 'error',
                         allowOutsideClick: false,
-                        onClose: function () {
+                        willClose: function () {
                             window.location.reload(true);
                         }
                     });
