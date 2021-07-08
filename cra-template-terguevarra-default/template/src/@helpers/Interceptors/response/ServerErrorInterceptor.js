@@ -2,7 +2,7 @@ import axios from 'axios';
 import Swal from 'sweetalert2/src/sweetalert2.js';
 
 function ServerErrorInterceptor(){
-  const interceptor = axios.interceptors.use(response => {
+  const interceptor = axios.interceptors.response.use(response => {
     return response;
   }, error => {
     try{
