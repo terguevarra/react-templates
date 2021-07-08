@@ -1,5 +1,5 @@
 import axios from 'axios';
-import Token from '../Token';
+import Token from '../../Token';
 
 function AuthInterceptor(){
   const interceptor = axios.interceptors.request.use(config => {
