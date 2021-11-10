@@ -12,6 +12,9 @@ import KeyValueToObjectArray from './KeyValueToObjectArray';
 import IfArrayIsInList from './IfArrayIsInList';
 import GetAge from './GetAge';
 import SetFormValues from './SetFormValues';
+import IsJson from './IsJson';
+import ConvertFromUtcDate from './ConvertFromUtcDate';
+import AddDecimalToNumber from './AddDecimalToNumber';
 
 export {
     ListToTree,
@@ -27,5 +30,8 @@ export {
     KeyValueToObjectArray,
     IfArrayIsInList,
     GetAge,
-    SetFormValues
+    SetFormValues,
+    IsJson,
+    ConvertFromUtcDate,
+    AddDecimalToNumber
 }

@@ -1,7 +1,6 @@
 import axios from 'axios';
 
 class Http {
-
   static #checkOptions = (options) => {
     let data = options == null ? { cache: false } : options;
     data.cache = false;
@@ -9,10 +8,10 @@ class Http {
     return data;
   }
   
-  static Get = async (url, options = null) => {
+  static Get = async (url, params = null, options = null) => {
     try{
       options = Http.#checkOptions(options);
-      let resp = await axios.get(url, options);
+      let resp = await axios.get(`${url}${params !== null ? `?${new URLSearchParams(params).toString()}` : ''}`, options);
       return resp.data;
     }catch(error){
       Promise.reject(error);
