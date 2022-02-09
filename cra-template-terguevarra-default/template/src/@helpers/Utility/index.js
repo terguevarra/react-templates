@@ -15,6 +15,11 @@ import SetFormValues from './SetFormValues';
 import IsJson from './IsJson';
 import ConvertFromUtcDate from './ConvertFromUtcDate';
 import AddDecimalToNumber from './AddDecimalToNumber';
+import IsInArrayLike from './IsInArrayLike';
+import IsNumber from './IsNumber';
+import IsOdd from './IsOdd';
+import IsEven from './IsEven';
+import GroupBy from './GroupBy';
 
 export {
     ListToTree,
@@ -33,5 +38,10 @@ export {
     SetFormValues,
     IsJson,
     ConvertFromUtcDate,
-    AddDecimalToNumber
+    AddDecimalToNumber,
+    IsInArrayLike,
+    IsNumber,
+    IsOdd,
+    IsEven,
+    GroupBy
 }

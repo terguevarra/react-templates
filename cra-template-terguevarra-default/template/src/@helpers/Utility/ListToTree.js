@@ -1,4 +1,4 @@
-const ListToTree = (_list, _idName, _parentIdName, _childrenPropertyName) => {
+const ListToTree = (_list, _idName, _parentIdName, _childrenPropertyName = 'children') => {
     let map = {}, node, roots = [], i;
     for (i = 0; i < _list.length; i += 1) {
         map[_list[i][_idName]] = i;
