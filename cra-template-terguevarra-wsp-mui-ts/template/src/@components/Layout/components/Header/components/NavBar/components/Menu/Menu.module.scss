@@ -1,0 +1,8 @@
+@import 'themes/_variables.scss';
+
+.menu {
+  & [class*="MuiPaper-root"] {
+    border-left: 4px solid map-get($theme-colors, 'secondaryMain');
+    border-radius: 0;
+  }
+}

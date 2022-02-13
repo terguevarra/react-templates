@@ -1,0 +1,64 @@
+@import 'themes/_variables.scss';
+@import 'themes/_functions.scss';
+@import 'themes/_mixins.scss';
+
+@mixin footerContainerMixin {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  padding: spacing(4px);
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.mainFooter {
+  background-image: linear-gradient(to bottom,#f6f9fb,#e6f0f7,#d7e8f3,#c7dff0,#b7d7ec);
+  padding: spacing(3px);
+}
+
+.toolbar {
+  background-color: $bottomFooterBgColor;
+  max-height: 20px;
+  min-height: 20px;
+  height: 20px;
+}
+
+.logoContainer {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  @include centerVerticalAndHorizontal;
+}
+
+.logo {
+  padding: spacing(3px);
+  height: 140px;
+}
+
+.aboutContainer {
+  @include footerContainerMixin;
+}
+
+.title {
+  color: map-get($theme-colors, 'secondaryMain');
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.text {
+  font-size: 0.625rem;
+}
+
+.supportContainer {
+  @include footerContainerMixin;
+}
+
+.link {
+  color: $linkColor;
+}
+
+.dataPrivacyContainer {
+  @include centerVerticalAndHorizontal;
+}
+
+.dataPrivacyImg {
+  height: 140px;
+}

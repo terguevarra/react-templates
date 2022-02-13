@@ -1,0 +1,5 @@
+$baseSpacing: 8;
+
+@function spacing($val) {
+  @return $baseSpacing * $val;
+}

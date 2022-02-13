@@ -1,0 +1,30 @@
+@import 'themes/_variables.scss';
+
+.root{
+  width: 100%;
+  padding-top: 0;
+}
+
+.selected {
+  background-color: map-get($theme-colors, 'backgroundPaper');
+  color: map-get($theme-colors, 'secondaryMain');
+  &:hover{
+    background-color: map-get($theme-colors, 'backgroundPaper');
+    color: map-get($theme-colors, 'secondaryMain');
+  }
+}
+
+.selectedIcon {
+  color: map-get($theme-colors, 'secondaryMain');
+  &:hover{
+    color: map-get($theme-colors, 'secondaryMain');
+  }
+}
+
+.itemClosed {
+  min-width: 100%;
+}
+
+.divider {
+  background-color: map-get($theme-colors, 'backgroundPaper');
+}

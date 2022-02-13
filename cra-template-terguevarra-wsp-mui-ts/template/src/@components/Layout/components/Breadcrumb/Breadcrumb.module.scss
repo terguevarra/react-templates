@@ -1,0 +1,21 @@
+@import 'themes/_functions.scss';
+
+.root {
+  padding-right: spacing(3px);
+  padding-left: spacing(3px);
+  padding-top: spacing(0.4px);
+  width: 100%;
+}
+
+.breadcrumb {
+  padding: 0;
+  padding-bottom: spacing(0.4px);
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+.breadcrumbSeparator {
+  margin-left: spacing(0.5px);
+  margin-right: spacing(0.5px);
+}

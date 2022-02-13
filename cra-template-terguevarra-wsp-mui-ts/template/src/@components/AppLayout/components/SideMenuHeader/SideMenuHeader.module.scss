@@ -1,0 +1,33 @@
+@import 'themes/_variables.scss';
+
+.root {
+  flex-grow: 1;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $sideMenuBgColor;
+  color: map-get($theme-colors, 'secondaryMain');
+  height: 100%;
+  min-height: 40px;
+  min-width: 40px;
+  border-radius: 0;
+  &:hover {
+    background-color: $sideMenuBgColor;
+    color: map-get($theme-colors, 'secondaryMain');
+  }
+}
+
+.buttonClosed {
+  width: 100%;
+}
+
+.toolBar {
+  background-color: $sectionHeadersBgColor;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  min-height: 40px;
+}

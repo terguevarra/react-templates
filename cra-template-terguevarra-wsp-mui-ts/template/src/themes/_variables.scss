@@ -1,0 +1,29 @@
+$theme-colors: (
+  'primaryLight': #82a7c9,
+  'primaryMain': #537898,
+  'primaryDark': #244c6a,
+  'secondaryLight': #ff7a63,
+  'secondaryMain': #ff4337,
+  'secondaryDark': #c4000d,
+  'backgroundDefault': #f2f2f2,
+  'backgroundPaper': #fff
+);
+
+$titleBarBgColor: #1e252b;
+$sectionHeadersBgColor: #333d47;
+$sideMenuBgColor: #d9d9d6;
+$bottomFooterBgColor: #333d47;
+$linkColor: #23527c;
+$formSectionHeaderBgColor: #6c6c6c;
+$formSubSectionHeader: #939596;
+$approvalItemsBorderAndBgColor: #B3D6EC;
+
+$status-colors: (
+  'pending': #fce776
+);
+
+// :export {
+//   @each $key, $value in $theme-colors {
+//     #{unquote($key)}: $value;
+//   }
+// }

@@ -1,0 +1,6 @@
+@import 'themes/_variables.scss';
+
+.root {
+  background-color: map-get($theme-colors, 'secondaryMain');
+  color: white;
+}

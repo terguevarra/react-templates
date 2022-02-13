@@ -1,0 +1,9 @@
+{
+  "name": "cra-template-terguevarra-wsp-mui-ts",
+  "version": "0.0.1",
+  "description": "Ruther's default project application structure for most CRA WSP web apps",
+  "author": "Ruther John Guevarra",
+  "license": "ISC",
+  "main": "template.json",
+  "files": ["template", "template.json"]
+}

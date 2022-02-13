@@ -1,0 +1,33 @@
+@import 'themes/_variables.scss';
+@import 'themes/_functions.scss';
+@import 'themes/_mixins.scss';
+
+.toolbar {
+  background-color: $titleBarBgColor;
+  @include centerVerticalAndHorizontal;
+}
+
+.imgContainer {
+  @include centerVerticalAndHorizontal;
+}
+
+.img {
+  max-height: 40px;
+}
+
+.actionButtonContainer{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.actionButton {
+  min-height: 40px;
+  color: white;
+  font-weight: 800;
+}
+
+.avatar {
+  width: spacing(3px);
+  height: spacing(3px);
+  margin-left: spacing(2px);
+}
